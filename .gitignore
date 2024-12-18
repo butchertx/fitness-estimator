@@ -1,0 +1,4 @@
+
+# ignore subdirectories of sample data and zips
+sample_data/*/
+sample_data/*.zip
