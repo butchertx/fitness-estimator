@@ -4,6 +4,8 @@ from typing import List, Dict
 from garmin_fit_sdk import Decoder, Stream
 import pandas as pd
 
+from data_load.common import DATA_DIR
+
 
 EPOCH_COLUMNS = ['timestamp', 'position_lat', 'position_long', 'distance', 'enhanced_altitude', 'enhanced_speed', 'heart_rate', 'cadence', 'fractional_cadence', 'temperature']
 
